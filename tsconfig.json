@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                           // Specify ECMAScript target version
+    "module": "CommonJS",                      // Specify module code generation
+    "strict": true,                            // Enable all strict type-checking options
+    "esModuleInterop": true,                   // Enables import compatibility with CommonJS
+    "skipLibCheck": true,                      // Skip type checking of declaration files
+    "outDir": "./dist",                        // Redirect output structure
+    "rootDir": "./src",                        // Specify root directory of input files
+    "resolveJsonModule": true,                 // Allow importing .json files
+    "forceConsistentCasingInFileNames": true   // Ensure consistent file casing
+  },
+  "include": ["src/**/*"],                     // Include files in the "src" folder
+  "exclude": ["node_modules", "**/*.test.ts"]  // Exclude test files and node_modules
+}
